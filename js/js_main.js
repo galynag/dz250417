@@ -4,7 +4,7 @@ function szRashod() {
   var h = document.getElementById('calc_h').value/100;
 
   var rashod = Math.ceil(w*l*h*1000/15);
-  // муж сказал, что неправильно просто перевести см в м, нужно еще учесть, что получается кубические метры, т.е. нужно еще *1000
+
 
   document.getElementById('out').innerHTML =  rashod + ' мешок (15л)';
 
